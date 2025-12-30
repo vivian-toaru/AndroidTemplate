@@ -33,6 +33,9 @@ jobs:
         with:
           cache-read-only: ${{ github.event_name == 'pull_request' }}
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Run checks
         run: ./gradlew ktlintCheck detekt lintDebug testDebugUnitTest
 

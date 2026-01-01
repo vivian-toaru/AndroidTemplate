@@ -1,4 +1,4 @@
-package vivian.toaru.benchmark
+package toaru.vivian.template.benchmark
 
 import androidx.benchmark.macro.StartupMode
 import androidx.benchmark.macro.StartupTimingMetric

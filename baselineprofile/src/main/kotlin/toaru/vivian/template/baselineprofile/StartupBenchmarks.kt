@@ -1,4 +1,4 @@
-package vivian.toaru.baselineprofile
+package toaru.vivian.template.baselineprofile
 
 import androidx.benchmark.macro.BaselineProfileMode
 import androidx.benchmark.macro.CompilationMode
